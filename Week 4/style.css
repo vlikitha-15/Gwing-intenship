@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe0e0, #fcd7f6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-section {
+  background: #fff;
+  margin-top: 50px;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #7a45de;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #7a45de;
+  display: inline-block;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+}
